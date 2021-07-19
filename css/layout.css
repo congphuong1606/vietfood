@@ -1,0 +1,427 @@
+﻿/* ================= CSS Default ================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 14px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a,
+img {
+    transition: all 0.15s ease;
+}
+
+a:focus {
+    outline: none;
+}
+
+a,
+a:hover,
+a:active,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.padding0 {
+    padding: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+/* ================= CSS Config ================= */
+
+.space_section {
+    padding: 90px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+input[type="text"] {
+    font-weight: 400;
+    padding: 12px 15px;
+    border-radius: 0;
+}
+
+input[type="submit"],
+input[type="button"],
+button {
+    padding: 13px 45px;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+
+/* ================= CSS FULL (content you write code here) ================= */
+
+.container {}
+
+.interleaved__bg {
+    width: 100%;
+}
+
+
+/* ================= HEADER ================= */
+
+header {
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.dis__transparent {
+    background-color: #222222;
+}
+
+.navbar {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.boder__bottom__header {
+    width: 100%;
+    background: url(../images/dot01.png) repeat-x;
+    height: 2px;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+}
+
+.nav-item {
+    display: flex;
+}
+
+.nav-link.active {
+    color: orange!important;
+}
+
+header .nav-link {
+    font-size: 16px;
+    line-height: 1;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+}
+
+.nav-item span {
+    width: 1px;
+    background-color: orange;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+
+/* ================= MAIN ================= */
+
+body {
+    background-color: #222222;
+}
+
+
+/* begin topbackgroud */
+
+#topBackground {
+    padding-top: 80px;
+}
+
+#topBackground section {
+    background: url(../images/main-image.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+/* end topbackgroud */
+
+.carousel-indicators li {
+    height: 7px;
+    width: 7px;
+    opacity: 1;
+    background-color: #ffae00!important;
+}
+
+#carousel h2 {
+    margin-top: 10%;
+    font-style: italic;
+    color: white;
+}
+
+#carousel article {
+    padding: 100px 50px 100px 50px;
+}
+
+.carousel-control-prev {
+    justify-content: left;
+}
+
+.carousel-control-next {
+    justify-content: unset;
+    width: unset;
+}
+
+#carousel p {
+    color: white;
+}
+
+.carousel-indicators .active {
+    background-color: white!important;
+}
+
+#carousel button {
+    color: yellowgreen;
+    border-radius: unset;
+    transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+}
+
+button span {
+    display: block;
+    transform: skewX(20deg)!important;
+    -moz-transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    -o-transform: skewX(20deg);
+    -ms-transform: skewX(20deg);
+}
+
+
+/* ================= FOOTER ================= */
+
+footer section {
+    padding-top: 50px;
+    background-color: black;
+}
+
+#logoFoodter {
+    font-size: 40px;
+    color: white;
+}
+
+#logoFoodter :hover {
+    color: #222222;
+}
+
+footer p {
+    color: #a7a7a7;
+}
+
+footer h5 {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer__logo {
+    padding-bottom: 20px;
+}
+
+footer li a {
+    text-align: center;
+    color: #a7a7a7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text__copyright {
+    text-align: center;
+    color: grey;
+    background-color: #212121;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.text__orange {
+    color: #f3f0e8!important;
+}
+
+
+/* ================= Few Option ================= */
+
+.content_page {
+    padding-top: 100px;
+}
+
+#mainMenu {
+    background-color: white;
+}
+
+header {
+    background: black;
+}
+
+.qode_pricing_list_item {
+    position: relative;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 19px 0;
+}
+
+.qode_pricing_item_text {
+    padding-right: 170px;
+}
+
+.qode_pricing_item_title {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.textcontens {
+    color: #5b5b5b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.qode_pricing_item_price {
+    position: absolute;
+    width: 170px;
+    height: 100%;
+    text-align: right;
+    right: 0;
+    top: 0;
+}
+
+.qode_pricing_item_price_inner {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.text_price {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #303030;
+    font-weight: 600;
+}
+
+.location_banner {
+    width: 100%;
+    height: auto;
+}
+
+.location_content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.location_content h3 {
+    color: #474747;
+    font-size: 19px;
+}
+
+.location_content p {
+    color: #5b5b5b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#mainlocation {
+    background-color: white;
+}
+
+.vietfoodOpen h5 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px!important;
+}
+
+.vietfoodOpen p {
+    text-align: center;
+    margin-bottom: 0px!important;
+}
+
+.vietfoodOpen a {
+    color: white;
+}
+
+.vietfoodOpen a:hover {
+    color: grey;
+}
+
+.facebook_logo {
+    width: 20px;
+    height: 20x;
+}
+
+.text__copyright {
+    color: grey;
+}

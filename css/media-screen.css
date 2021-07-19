@@ -1,0 +1,103 @@
+﻿/* ================= CONFIG WEBSITE ================= */
+
+
+/* ================= Large devices (include: Laptop, PC, desktop, TV from 992px to 1199.98px) ================= */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .space_section {
+        padding: 60px 0;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3,
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 17px;
+    }
+    h6,
+    p {
+        font-size: 14px;
+    }
+}
+
+
+/* ================= Medium devices (tablets, from 768px to 991.98px) ================= */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .space_section {
+        padding: 50px 0;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 27px;
+        margin-bottom: 15px;
+        line-height: 1.25;
+    }
+    h3,
+    h4 {
+        font-size: 18px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+}
+
+
+/* ================= Option follow device ================= */
+
+@media (min-width: 992px) {
+    .img__left {
+        margin-left: -30%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    header {
+        background-color: #222222;
+    }
+}
+
+@media (min-width: 768px) {}
+
+
+/* ================= Small devices (mobiles, from 0px to 767.98px) ================= */
+
+@media (max-width: 767.98px) {
+    .space_section {
+        padding: 40px 0;
+    }
+    h1,
+    h2 {
+        font-size: 30px;
+    }
+    h3,
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 15px;
+    }
+    h6,
+    p {
+        font-size: 14px;
+    }
+    #topBackground {
+        background: unset;
+    }
+    .img-feature1 {
+        width: 100%;
+        height: auto;
+    }
+    #emailInputForm {
+        width: unset;
+        margin: 0px 25px 0px 25px;
+    }
+}
