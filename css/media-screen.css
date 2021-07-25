@@ -100,4 +100,7 @@
         width: unset;
         margin: 0px 25px 0px 25px;
     }
+    .qode_pricing_item_price_inner span{
+        font-size: 14px!important;
+    }
 }

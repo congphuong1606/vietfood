@@ -425,3 +425,8 @@ header {
 .text__copyright {
     color: grey;
 }
+
+#myTabContent h5{
+      font-size: 12px;
+      color: darkgreen;
+}
