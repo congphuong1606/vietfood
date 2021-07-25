@@ -103,4 +103,8 @@
     .qode_pricing_item_price_inner span{
         font-size: 14px!important;
     }
+
+    .qode_pricing_item_price {
+        width: 100px!important;
+    }
 }
